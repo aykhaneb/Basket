@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding: 10px 0;
+  background-color: brown;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#Products img {
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.shop .content-shop {
+  background-color: #EEEEEE;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+.shop .content-shop .image img {
+  height: 150px;
+  border-radius: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.shop .content-shop .pricee {
+  font-size: 20px;
+  font-weight: bold;
+}
+.shop .content-shop .plus-minus {
+  font-size: 20px;
+  font-weight: bold;
+}
+.shop .content-shop .plus-minus .digit {
+  border: 1px solid black;
+  padding: 6px 13px;
+  border-radius: 5px;
+}
+.shop .content-shop .plus-minus .plus {
+  cursor: pointer;
+}
+.shop .content-shop .plus-minus .minus {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+header{
+    padding: 10px 0;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 25px;
+}
+#Products{
+    img{
+        height: 300px;
+        object-fit: contain;
+    }
+}
+
+.shop{
+    .content-shop{
+        background-color: #EEEEEE;
+        padding: 30px 20px;
+        border-radius: 20px;
+        .image img{
+            height: 150px;
+            border-radius: 20px;
+            object-fit: contain;
+        }
+        .pricee{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .plus-minus{
+            font-size: 20px;
+            font-weight: bold;
+            .digit{
+                border: 1px solid black;
+                padding: 6px 13px;
+                border-radius: 5px;
+            }
+            .plus{
+                cursor: pointer;
+            }
+            .minus{
+                cursor: pointer;
+            } 
+ 
+        }
+    }
+}
